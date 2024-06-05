@@ -31,5 +31,6 @@ Install my-project with composer
 - Authentification users
 - Fullscreen mode
 - Users info
+- Like/Dislike counter button
 - Subscribe/Unsubscribe button
 

@@ -29,6 +29,7 @@ Install my-project with composer
 - Upload form videos
 - Registration form
 - Authentification users
+- Password users change system  
 - Fullscreen mode
 - Users info
 - Like/Dislike counter button

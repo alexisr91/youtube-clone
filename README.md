@@ -27,6 +27,7 @@ Install my-project with composer
 ## Features
 
 - Upload videos
+- Registration form
 - Authentification users
 - Fullscreen mode
 - Users info

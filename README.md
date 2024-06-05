@@ -26,7 +26,7 @@ Install my-project with composer
    git clone https://github.com/votre_nom_d_utilisateur/youtube-clone.git
 ## Features
 
-- Upload videos
+- Upload form videos
 - Registration form
 - Authentification users
 - Fullscreen mode

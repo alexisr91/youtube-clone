@@ -1,0 +1,212 @@
+html, body{height: 100%; padding:0;margin:0;}
+a{text-decoration: none;}
+a:hover{text-decoration: underline;}
+
+#pageContainer{width: 100%;height:100%;background-color: #fafafa;}
+
+header{width: 100%;height:60px;position: fixed;top:0;left:0;display:flex;padding: 7px 16px; border-bottom: 1px solid #e8e8e8; background-color: #fff; box-sizing: border-box; z-index: 1; align-items: center; justify-content: space-between;}
+
+
+header .rightIcons img, header button{
+    border:none;width: 30px; height:30px;background: transparent; cursor: pointer;
+}
+#sidenavContainer{width:240px;background-color: #f5f5f5; padding-top:60px; position : fixed; top:0; bottom:0;}
+
+#mainSectionContainer{padding-top: 60px; display:flex;}
+#mainSectionContainer.leftPadding{padding-left: 240px;}
+
+header .logoContainer{width: 70px; height: 70px;}
+header .logoContainer img{width:100%;height:90%;margin-left: 8px;}
+
+
+/* BArre de recherche */
+
+
+header .searchbarContainer{
+    flex: 1;
+    display: flex;
+    margin: 0 40px;
+}
+
+header .searchbarContainer form{ flex:1; display: flex;}
+header .searchbarContainer form .searchbar{ flex: 1; color: #232323; font-size: 14;max-width: 600px; border: 1px solid #ccc; box-shadow: #eee 0px 1px 2px 0px inset; padding:2 6px; height: 35px;}
+header .searchbarContainer .searchBtn{height:35px; background-color: #f8f8f8; border: 1px solid #d3d3d3; cursor: pointer; width: 65px;}
+
+header .searchbarContainer .searchBtn img{ height:20px; width: 20px;}
+
+.rightIcons a{text-decoration: none;}
+
+/* Page d'inscription ( signUp.php ) */
+
+#registerContainer{background-color:#efefee;height: 100vh; display: flex; justify-content: center; align-items: center;}
+
+.column{ background: #fff; padding: 2em ; box-shadow: rgba(0, 0, 0, 0.1) 0 1px 2px; min-height:300px;}
+
+#registerContainer .header{display:flex;flex-direction: column;align-items: center;}
+#registerContainer .header img{width: 100px;}
+
+#registerContainer .column{width:450px;max-height:100%;overflow-y:auto;padding:2em 2.5em}
+
+.error{display:inline-block; background-color: indianred; color: #fff; font-size: 0.8em; padding: 0.3em;margin:0.5em 0}
+
+/* page watch */
+
+.videoPlayer video{width: 100%;}
+.bottomSection{display:flex;}
+.bottomSection .viewCount{
+    font-size: 1.1em;
+    color: rgba(23,23,23, 0.5);
+    flex:1;
+}
+
+.bottomSection .controls button{background:transparent;border:none;cursor: pointer;padding-left: 0px;}
+
+.bottomSection .controls button img{height:20px;width:20px;}
+
+
+
+
+/* Seconde zone */
+
+.secondarySection .topContent{display:flex;}
+
+.secondarySection .topContent .uploadInfos{ flex : 1; display :flex; flex-direction: column; margin-left: 1em;}
+
+.secondarySection .topContent .uploadInfos .date{ font-size: 13px;color: #777;}
+
+.subscribeBtn{ display: flex; flex-direction: column; justify-content: center;}
+
+.subscribeBtn .subscribe{background-color: #ff0000;color:#fff; padding: 0.2em; border:none;}
+.subscribeBtn .unsubscribe{background-color: #eee;color:#232323; padding: 0.2em; border:none;}
+
+
+/* suggestions */
+
+.gridItem .thumbnail{width:210px;height:118px; position : relative;}
+.gridItem .thumbnail img{width:100%; height: 100%;}
+
+.gridItem .thumbnail .duration{ position: absolute; bottom: 0; right: 0; background-color: rgba(17, 17, 17, 0.8); font-size: 12px; border-radius: 3px; opacity :0.8;color: #fff; padding: 2px 4px; margin: 4px; font-weight: 500; line-height: 12px; }
+
+.gridItem{display: flex; margin-bottom: 1em;}
+
+.gridItem .Détails{ margin-left: 8px; display:flex; flex-direction: column; cursor: pointer; text-decoration: none;}
+
+.gridItem .Détails .title{ font-size: 13px; font-weight: 500; color: #232323;}
+
+.gridItem .Détails .username,.gridItem .Détails .stats{color: rgba(17,17,17, 0.6); font-size: 12px;}
+
+.home.gridItem{display: flex; flex-direction: column; margin-bottom: 1em; margin-right: 1em;}
+
+.home .videoGrid{display: flex; flex-wrap: wrap;}
+
+/* Menu de gauche */
+
+#sidenavContainer .navItems{
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
+.navigation img{
+    height: 20px;
+    margin-right: 1em;
+}
+
+.navigation a{
+    display: flex;
+    align-items: center;
+    color: #111;
+    font-size: 1em;
+    padding: 0.8em;
+}
+
+.navigation a:hover{
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.gridHeader{
+    margin: 1em 0;
+    border-bottom: 1px solid rgba(17, 17, 17, 0.4);
+    padding-bottom: 0.5em;
+}
+
+.details h3.title{
+    text-transform: capitalize;
+}
+
+.left{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+p.description{
+    width:60%;
+}
+
+
+/* Page profil */
+
+.profileContainer{width:100%;}
+.coverImgContainer{height:267px;width:100%;display: flex;justify-content: center; align-items: center;}
+.coverImgContainer .profileName{font-size: 50px;color:#fff;letter-spacing:5px;}
+
+
+/*  profil : infos / tabs */
+
+.profileHeader,.profileTabs,.profileContent{display: flex;padding: 1em 3em;}
+
+/* .profileHeader {display: flex; justify-content: flex-end;} */
+
+.profileHeader .userInfosContainer{display:flex; flex:2;}
+
+.userInfosContainer .userInfosContainer .profileImg{width: 50px; height: 50px;}
+
+.profileHeader .userInfos{flex:1;display: flex; flex-direction: column; justify-content: center;}
+
+.profileHeader .userInfos .title{font-size: 24px; font-weight:400; color:#111;}
+
+.profileHeader .userInfos .subscriberCount{color:rgba(17, 17, 17, 0.6); font-size: 14px;}
+
+.profileHeader .btnContainer{display:flex; justify-content: flex-end; flex:1;}
+
+.profileHeader .btnContainer .btnItem{align-items: center;}
+
+.profileHeader .btnContainer .btnItem button{ padding:0.7em; font-size: 14px; font-weight: 500; border-radius: 2px; cursor: pointer; text-transform: uppercase;}
+
+.videoGrid{display: flex;}
+
+/* About tab */
+
+.aboutContainer .values{display: flex; flex-direction: column; color: rgba(17, 17, 17, 0.6);}
+
+/* Thumbnail*/
+
+.editVideoContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.editVideoContainer .topSection{
+    display: flex;
+}
+
+.thumbnailItem{
+    margin-bottom: 0.5em;
+    padding: 3px;
+}
+
+.thumbnailItem .selected{
+    border : 3px solid #48BDD7;
+}
+
+.topSection .thumbnailItemsContainer .thumbnailItem img{
+    cursor: pointer;
+    width:100%;
+}
+
+.bottomSection{
+    margin-top: 2em;
+}
+
+form{
+    width: 80%;
+}

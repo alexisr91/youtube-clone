@@ -10,13 +10,13 @@ Youtube clone
 
 Programming language : PHP 
 
-RDBMS	: MySQL
+RDBMS : MySQL
 
 Library : AJAX
 
-Editeur de code: 	Visual studio code
+Code editor: 	Visual studio code
 
-
+Server : MAMP Apache server 
 ## Installation
 
 Install my-project with composer

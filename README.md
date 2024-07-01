@@ -17,6 +17,12 @@ Library : AJAX
 Code editor: 	Visual studio code
 
 Server : MAMP Apache server 
+
+## Screenshots
+
+
+
+
 ## Installation
 
 Install my-project with composer
